@@ -1,0 +1,60 @@
+{
+  "title": "FTQueue",
+  "name": "ftqueue",
+  "version": "1.0.0",
+  "description": "FTQueue – A queue, File uploader Javascript Library.",
+  "main": "lib/ftqueue.js",
+  "types": "lib/ftqueue.min.dist.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npm install && grunt",
+    "start": "grunt start",
+    "test": "grunt && grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqrony/ftqueue.git"
+  },
+  "keywords": [
+    "ftqueue",
+    "queue",
+    "queue",
+    "uploader",
+    "file",
+    "uploader",
+    "queue",
+    "listed",
+    "library",
+    "api",
+    "xhr",
+    "upload",
+    "javascript"
+  ],
+  "author": "Shahzada Modassir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jqrony/ftqueue/issues"
+  },
+  "homepage": "https://github.com/jqrony/ftqueue#readme",
+  "commitplease": {
+    "components": [
+      "each",
+      "buildParam",
+      "compileAndFilterFileTypes",
+      "ajaxSetup",
+      "extend",
+      "memory",
+      "Promise",
+      "Deffered",
+      "compile",
+      "addQueue",
+      "ajaxSettings",
+      "ajaxEvent",
+      "AjaxEvent",
+      "add",
+      "ajaxTransport"
+    ]
+  }
+}
